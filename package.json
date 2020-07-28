@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-delete-launch-screen-cache",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "description": "Cordova plugin to programmatically delete the iOS launch screen cache on iOS 13+",
   "author": "Tim Brust <github@timbrust.de>",
   "license": "MIT",
