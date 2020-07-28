@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "./dist/www",
+        "removeComments": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "typeRoots": ["node_modules/@types"],
+        "lib": ["ES2020", "dom"]
+    },
+    "include": ["www/*"]
+}

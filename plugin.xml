@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-delete-launch-screen-cache" version="1.0.0">
+    <name>DeleteLaunchScreenCache</name>
+    <description>Cordova plugin to programmatically delete the iOS launch screen cache on iOS 13+</description>
+    <author>Tim Brust</author>
+    <license>MIT</license>
+    <keywords>cordova,ios,xcode,launch-screen</keywords>
+
+    <engines>
+        <engine name="cordova" version=">=9.0.0" />
+        <engine name="cordova-ios" version=">=5.0.0" />
+    </engines>
+
+    <js-module src="dist/www/delete-launch-screen-cache.js" name="DeleteLaunchScreenCache">
+        <clobbers target="cordova.plugins.launchScreenCache" />
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="DeleteLaunchScreenCache">
+                <param name="ios-package" value="DeleteLaunchScreenCache" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/ios/DeleteLaunchScreenCache.swift" />
+    </platform>
+</plugin>

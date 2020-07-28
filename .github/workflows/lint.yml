@@ -1,0 +1,16 @@
+on: [push, pull_request]
+
+name: Linting
+
+jobs:
+  runLinting:
+    name: Runs TSLint and SwiftLint
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+
+      - run: |
+          swiftlint version
+          npm run lint

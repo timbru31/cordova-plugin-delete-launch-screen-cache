@@ -1,0 +1,48 @@
+{
+  "name": "cordova-plugin-delete-launch-screen-cache",
+  "version": "3.0.0",
+  "description": "Cordova plugin to programmatically delete the iOS launch screen cache on iOS 13+",
+  "author": "Tim Brust <github@timbrust.de>",
+  "license": "MIT",
+  "repository": "timbru31/cordova-plugin-delete-launch-screen-cache",
+  "bugs": {
+    "url": "https://github.com/timbru31/cordova-plugin-delete-launch-screen-cache/issues"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json 'www/**/*.ts' && swiftlint",
+    "build": "rm -rf dist && tsc",
+    "prerelease": "npm run build",
+    "release": "standard-version -s -a"
+  },
+  "devDependencies": {
+    "@types/cordova": "^0.0.34",
+    "prettier": "^2.0.5",
+    "replace": "^1.2.0",
+    "standard-version": "^8.0.2",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  },
+  "cordova": {
+    "id": "cordova-plugin-delete-launch-screen-cache",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": {
+        "cordova": ">= 9.0.0",
+        "cordova-ios": ">=5.0.0"
+      }
+    }
+  },
+  "keywords": [
+    "cordova",
+    "cordova-plugin",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "xcode",
+    "launch-screen"
+  ],
+  "funding": "https://github.com/sponsors/timbru31"
+}
