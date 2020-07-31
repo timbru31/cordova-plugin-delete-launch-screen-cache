@@ -1,5 +1,3 @@
-import WebKit
-
 @objc(DeleteLaunchScreenCache) class DeleteLaunchScreenCache: CDVPlugin {
     
     @objc(deleteLaunchScreenCache:)
