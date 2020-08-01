@@ -1,6 +1,7 @@
 # cordova-plugin-delete-launch-screen-cache
 
-[![Build Status](https://travis-ci.org/timbru31/cordova-plugin-delete-launch-screen-cache.svg?branch=master)](https://travis-ci.org/timbru31/cordova-plugin-delete-launch-screen-cache)
+[![Linting](https://github.com/timbru31/cordova-plugin-delete-launch-screen-cache/workflows/Linting/badge.svg)](https://github.com/timbru31/cordova-plugin-delete-launch-screen-cache/actions?query=workflow%3ALinting)
+[![npm audit](https://github.com/timbru31/cordova-plugin-delete-launch-screen-cache/workflows/Security/badge.svg)](https://github.com/timbru31/cordova-plugin-delete-launch-screen-cache/actions?query=workflow%3ASecurity)
 
 [![Dependency Status](https://david-dm.org/timbru31/cordova-plugin-delete-launch-screen-cache.svg)](https://david-dm.org/timbru31/cordova-plugin-delete-launch-screen-cache)
 [![devDependency Status](https://david-dm.org/timbru31/cordova-plugin-delete-launch-screen-cache/dev-status.svg)](https://david-dm.org/timbru31/cordova-plugin-delete-launch-screen-cache#info=devDependencies)
