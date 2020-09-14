@@ -1,5 +1,5 @@
 @objc(DeleteLaunchScreenCache) class DeleteLaunchScreenCache: CDVPlugin {
-    
+
     @objc(deleteLaunchScreenCache:)
     func deleteLaunchScreenCache(command: CDVInvokedUrlCommand) {
         if #available(iOS 13.0, *) {
