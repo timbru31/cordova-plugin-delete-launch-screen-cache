@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/cordova-plugin-delete-launch-screen-cache.svg)](https://www.npmjs.com/package/cordova-plugin-delete-launch-screen-cache)
 
-#### Cordova plugin to programmatically delete the iOS launch screen cache on iOS 13+
+#### Apache Cordova plugin to programmatically delete the iOS launch screen cache on iOS 13+
 
 Inspired by [Guilherme Rambo's blog entry](https://rambo.codes/posts/2019-12-09-clearing-your-apps-launch-screen-cache-on-ios).
 
