@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@types/cordova": "^0.0.34",
-    "prettier": "^2.0.5",
+    "prettier": "^2.2.1",
     "replace": "^1.2.0",
     "standard-version": "^9.0.0",
     "tslint": "^6.1.2",
