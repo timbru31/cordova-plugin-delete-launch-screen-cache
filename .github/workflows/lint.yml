@@ -12,6 +12,5 @@ jobs:
       - uses: actions/setup-node@v1
 
       - run: |
-          brew install swiftlint
           npm ci
           npm run lint
