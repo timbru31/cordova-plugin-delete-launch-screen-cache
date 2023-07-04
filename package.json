@@ -9,18 +9,21 @@
     "url": "https://github.com/timbru31/cordova-plugin-delete-launch-screen-cache/issues"
   },
   "scripts": {
-    "lint": "tslint -c tslint.json 'www/**/*.ts' && swiftlint",
+    "lint": "eslint 'www/**/*.ts' && swiftlint",
     "build": "rm -rf dist && tsc",
     "prerelease": "npm run build",
     "release": "standard-version -s -a"
   },
   "devDependencies": {
     "@types/cordova": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.8",
     "replace": "^1.2.2",
     "standard-version": "^9.5.0",
-    "tslint": "^6.1.2",
-    "typescript": "^5.1.5"
+    "typescript": "^5.1.6"
   },
   "cordova": {
     "id": "cordova-plugin-delete-launch-screen-cache",

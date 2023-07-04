@@ -16,7 +16,7 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "typeRoots": ["node_modules/@types"],
-        "lib": ["ES2020", "dom"]
+        "lib": ["ES2022", "dom"]
     },
     "include": ["www/*"]
 }
