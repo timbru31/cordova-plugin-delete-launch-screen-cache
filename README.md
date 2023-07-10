@@ -27,6 +27,11 @@ Inspired by [Guilherme Rambo's blog entry](https://rambo.codes/posts/2019-12-09-
 
 `$ cordova plugin add https://github.com/timbru31/cordova-plugin-delete-launch-screen-cache.git`
 
+##### Caveats
+
+Only **cordova >= 9.0.0** and **cordova-ios >= 5.0.0** are supported.  
+You need to specify a valid `SwiftVersion` (minimum is 5.5) in your `config.xml`. (see https://cordova.apache.org/docs/en/latest/config_ref/)
+
 ### Usage
 
 #### Delete the launch screen cache
