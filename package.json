@@ -20,7 +20,7 @@
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.44.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "replace": "^1.2.2",
     "standard-version": "^9.5.0",
     "typescript": "^5.1.6"
