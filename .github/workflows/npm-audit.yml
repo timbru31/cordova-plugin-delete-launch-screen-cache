@@ -4,8 +4,6 @@ on:
       - master
   pull_request:
 
-
-
 name: Security
 
 jobs:
