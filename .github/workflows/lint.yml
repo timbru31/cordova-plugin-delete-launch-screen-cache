@@ -7,14 +7,39 @@ on:
 name: Linting
 
 jobs:
-  runLinting:
-    name: Runs ESLint and SwiftLint
+  build:
     runs-on: macos-latest
+
     steps:
       - uses: actions/checkout@v3.5.3
 
-      - uses: actions/setup-node@v3.7.0
+      - uses: actions/setup-node@v3.8.0
+        with:
+          node-version: 18
 
-      - run: |
+      - name: Environment Information
+        run: |
+          node --version
+          npm --version
+
+      - name: Setup
+        run: |
+          swiftlint version
           npm ci
-          npm run lint
+
+      - name: Linting
+        run: npm run lint
+
+  auto-merge:
+    runs-on: ubuntu-latest
+    needs: build
+
+    permissions:
+      pull-requests: write
+      contents: write
+
+    steps:
+      - name: Automatically merge dependabot upgrades
+        uses: fastify/github-action-merge-dependabot@v3.9.0
+        with:
+          target: minor
