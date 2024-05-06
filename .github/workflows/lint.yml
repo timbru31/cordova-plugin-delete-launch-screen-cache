@@ -24,6 +24,7 @@ jobs:
 
       - name: Setup
         run: |
+          brew install swiftlint
           swiftlint version
           npm ci
 
