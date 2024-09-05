@@ -15,7 +15,7 @@ jobs:
 
       - uses: actions/setup-node@v4.0.3
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Environment Information
         run: |
